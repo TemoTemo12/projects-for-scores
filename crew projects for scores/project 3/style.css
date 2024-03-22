@@ -1,0 +1,79 @@
+.buttons {
+    height: 40px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .buttons:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+body {
+    background-color: cadetblue;
+
+}
+
+.main-div {
+    background-color: white;
+    width: 250px;
+    margin-left: 600px;
+    margin-top: 150px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.indiv-back {
+    background-color: cornflowerblue;
+    width: 250px;
+    border: solid black;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+img {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.fw {
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.lk {
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.pht{
+    margin-top: -50px;
+    margin-left: 170px;
+}
+
+.f{
+margin-top: -20px;
+}
+.w{
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.p {
+    margin-left: 165px;
+    margin-top: -40px; 
+}

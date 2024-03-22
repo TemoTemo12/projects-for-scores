@@ -1,0 +1,53 @@
+.buttons {
+    height: 40px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .buttons:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+body {
+    background-color: darkslategrey;
+}
+
+.maindiv {
+    background-color: white;
+    width: 750px;
+    height: 450px;
+    border-radius: 25px;
+}
+.sbn {
+    border-radius: 30px;
+    background-color: darkslateblue;
+    height: 50px;
+    color: white;
+
+}
+.sbn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+
+}
+
+input {
+    border-radius: 20px;
+
+}
+
+
+img {
+    width: 250px;
+    height: 360px;
+    margin-top: -300px;
+    border-radius: 40px;
+    margin-left: 400px;
+}
