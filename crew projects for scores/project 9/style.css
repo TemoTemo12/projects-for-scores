@@ -1,0 +1,95 @@
+.main {
+    border:  solid black;
+    height: 610px;
+    width: 430px;
+    border-radius: 30px;
+    background-color: grey;
+    margin-left: 430px;
+    margin-top: 60px;
+}
+
+
+
+.screen {
+    border:  solid black;
+    width: 415px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: limegreen;
+}
+
+
+
+button{
+    width: 200px;
+    height: 75px;
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    animation-name: butonebi;
+    animation-duration:  4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes butonebi {
+10%{color: red ;}
+20%{color: blue ;}
+30%{color: greenyellow ;}
+40%{color: green ;}
+50%{color: pink;}
+60%{color: yellow;}
+70%{color: purple;}
+80%{color:orangered ;}
+90%{color: orchid ;}
+100%{color: lightskyblue;}
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+#img1 {
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.word {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: -600px;
+    margin-left: 900px;
+    animation-name: words;
+}
+
+
+@keyframes words {
+    10%{color: red ;}
+    20%{color: blue ;}
+    30%{color: greenyellow ;}
+    40%{color: green ;}
+    50%{color: pink;}
+    60%{color: yellow;}
+    70%{color: purple;}
+    80%{color:orangered ;}
+    90%{color: orchid ;}
+    100%{color: lightskyblue;}
+}

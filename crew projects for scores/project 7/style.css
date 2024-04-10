@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to bottom, greenyellow, black);
+}
+
+div {
+    color: white;
+    border: dashed black;
+    width: 350px;
+    margin-left: 500px;
+    border-radius: 50px;
+}
+
+img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 350px;
+    border: solid greenyellow;
+}
+
+h1, h4 {
+    margin-left: 20px;
+    text-shadow: greenyellow 5px 5px 5px;
+}

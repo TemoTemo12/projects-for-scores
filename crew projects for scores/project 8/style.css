@@ -1,0 +1,52 @@
+.smartphone{
+    border: solid white;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.notch {
+    border: solid white;
+    width: 110px;
+    margin-left: 90px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: -500px;
+    z-index: 12;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+img{
+    width: 300px;
+    height: 470px;
+    border-radius: 25px;
+    margin-top: 30px ;
+}
+
+.backend {
+    border: solid white;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    margin-left: 330px;
+    margin-top: -500px;
+}
+
+.camera {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.samsung{
+    margin-top: 340px;
+    margin-left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
