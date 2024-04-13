@@ -1,0 +1,29 @@
+.main {
+    border: solid white;
+    width: 250px;
+    height: 330px;
+    border-radius: 15px;
+}
+
+button {
+    width: 59px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Submit{
+    width: 250px;
+    margin-top: 5px;
+    height: 45px;
+
+}
+
+h1 , h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}

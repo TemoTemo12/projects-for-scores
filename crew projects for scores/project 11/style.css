@@ -1,0 +1,26 @@
+.main{
+    width: 330px;
+    border: solid black;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgb(133, 178, 44);
+}
+h3{
+    color: rgb(103, 144, 42);
+    margin-left: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+button{
+    width: 330px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
