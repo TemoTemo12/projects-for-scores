@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(24, 26, 27);
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-style: oblique;
+    margin-left: 430px;
+    margin-top: 60px;
+    animation-name: title;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    letter-spacing: 5px;
+    transition: ease-in;
+
+}
+@keyframes title {
+    10%{color: red ;}
+    20%{color: blue ;}
+    30%{color: green ;}
+    40%{color: greenyellow;}
+    50%{color: pink ;}
+    60%{color: purple;}
+    70%{color: chocolate;}
+    80%{color: orange;}
+    90%{color: royalblue;}
+    100%{color: cyan;}
+}
+
+
+.title2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-style: oblique;
+    margin-left: 30px;
+    margin-top: 60px;
+    animation-name: title;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    letter-spacing: 5px;
+    transition: ease-in;
+
+}
+@keyframes title {
+    10%{color: red ;}
+    20%{color: blue ;}
+    30%{color: green ;}
+    40%{color: greenyellow;}
+    50%{color: pink ;}
+    60%{color: purple;}
+    70%{color: chocolate;}
+    80%{color: orange;}
+    90%{color: royalblue;}
+    100%{color: cyan;}
+}
+
+
+.seemore{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+    animation-name: button;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    letter-spacing: 5px;
+    transition: ease-in;
+
+}
+
+.seemore:hover {
+    transform: scale(1.2);
+}
+
+@keyframes button {
+    10%{background-color: red ;
+    transform: scale(1.1);}
+    20%{background-color: blue ;}
+    30%{background-color: green ;
+        transform: scale(1.2);}
+    40%{background-color: greenyellow;
+        transform: scale(0.9);}
+    50%{background-color: pink ;
+        transform: scale(1.1);}
+    60%{background-color: purple;
+        transform: scale(0.9);}
+    70%{background-color: chocolate;
+        transform: scale(1.1);}
+    80%{background-color: orange;
+        transform: scale(0.9);}
+    90%{background-color: royalblue;
+        transform: scale(1.1);}
+    100%{background-color: cyan;
+        transform: scale(0.9);}
+}

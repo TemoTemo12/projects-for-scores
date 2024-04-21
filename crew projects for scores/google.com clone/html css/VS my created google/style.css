@@ -1,0 +1,116 @@
+body{
+    background-color: #181A1B;
+}
+
+/* google title style */
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    letter-spacing: 5px;
+}
+.blue{
+    color: cornflowerblue;
+}
+
+.green{
+    color: greenyellow;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.red{
+    color: red;
+}
+
+/* search bar style */
+
+input{
+    color: white;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 390px;
+    background-color: #181A1B;
+    border: solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* sign in button style with animations (keyframes) */
+
+.sign-in {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+        animation-name: button;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        letter-spacing: 5px;
+        transition: ease-in;
+        /* margins, heights and widths */
+    margin-left: 915px;
+
+    height: 30px;
+    width: 130px;
+}
+
+
+@keyframes button {
+10%{background-color: red ;
+transform: scale(1.1);
+border-radius: 10px;}
+
+20%{background-color: blue ;
+    border-radius: 30px;}
+
+30%{background-color: green ;
+    transform: scale(1.2);
+    border-radius: 50px;}
+
+40%{background-color: greenyellow;
+    transform: scale(0.9);
+    border-radius: 10px;}
+
+50%{background-color: pink ;
+    transform: scale(1.1);}
+
+60%{background-color: purple;
+    transform: scale(0.9);
+    border-radius: 30px;}
+
+70%{background-color: chocolate;
+    transform: scale(1.1);
+    border-radius: 50px;}
+
+80%{background-color: orange;
+    transform: scale(0.9);
+    border-radius: 10px;}
+
+90%{background-color: royalblue;
+    transform: scale(1.1);
+    border-radius: 30px;}
+
+100%{background-color: cyan;
+    transform: scale(0.9);
+    border-radius: 80px;}
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 90px;
+    animation-name: button;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    letter-spacing: 5px;
+    transition: ease-in;
+}
