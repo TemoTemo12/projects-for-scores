@@ -1,0 +1,32 @@
+.title {
+    color:cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 600px;
+    letter-spacing: 5px;
+    
+}
+
+body{
+    background-color: #181A1B;
+}
+
+
+button{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 600px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:focus{
+    background: white;
+    color: cornflowerblue;
+}

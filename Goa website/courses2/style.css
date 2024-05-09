@@ -1,0 +1,26 @@
+/* Smooth transition on hover */
+button {
+    height: 70px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+.btn {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.btn2{
+    margin-left: 100px;
+}
