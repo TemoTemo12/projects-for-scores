@@ -1,0 +1,362 @@
+body {
+    background-color: #181A1B;
+}
+
+.Contaxt-txt{
+    color:cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 600px;
+    letter-spacing: 5px;
+    
+}
+
+
+
+.btn1{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 600px;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
+
+.btn1:focus{
+    background: white;
+    color: cornflowerblue;
+}
+
+
+.boxes {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+    cursor: crosshair;
+}
+
+.box:hover {
+    background-color: #1171b1;
+}
+
+.box:before,
+.box:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:before {
+    top: -10px;
+    left: -10px;
+}
+
+.box:after {
+    bottom: -10px;
+    right: -10px;
+}
+
+.box:hover:before,
+.box:hover:after {
+    opacity: 1;
+}
+
+.box:active {
+   transform: scale(0.9);
+}
+
+/* Smooth transition on hover */
+.groups{
+    height: 70px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.groups:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+.join-btn{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.join-btn:hover{
+    transform: scale(1.1);
+}
+
+.join-btn:focus{
+    background: white;
+    color: cornflowerblue;
+}
+
+
+
+.goa {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    color: chartreuse;
+    margin-top: 100px;
+    animation-name: goa;
+    animation-duration: 5s;
+    animation-play-state: running;
+
+
+}
+
+@keyframes goa {
+    0%{margin-top: -200px;
+    color: white;}
+    10%{margin-top: -100px;
+    color: forestgreen;}
+    20%{margin-top: -50px;
+    color: green;}
+    30%{margin-top: -30px;
+    color: limegreen;}
+    40%{margin-top: -10px;
+    color: lime;}
+    100%{margin-top: 100px;
+    color: chartreuse;}
+}
+
+
+.buttons-main {
+    margin-left: 510px;
+    position: sticky;
+    top: 0;
+}
+
+.main-btn{
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main-btn:hover{
+    background-color: chartreuse;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.main-btn:focus{
+    background-color: white;
+    color: chartreuse;
+}
+
+.goa2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    color: chartreuse;
+    margin-top: 100px;
+    animation-name: goa;
+    animation-duration: 5s;
+    animation-play-state: running;
+
+}
+
+
+.video{
+    margin-left: 450px;
+    height: 300px;
+    width: 600px;
+    margin-top: 200px;
+}
+
+
+.imgs{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.images{
+    margin-left: 615px;
+}
+.imgs:hover {
+    transform: scale(1.1);
+}
+
+.re-sect{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+.re-label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.re-input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.re-btn{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.re-btn:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+.idk{
+	position: absolute;
+	color: black;
+	background-color: white;
+	width: 250px;
+	margin-top: -500px;
+	margin-left: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.idk:hover{
+	color: white;
+    background: #6d44b8;
+}
+
+.goa-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.goa-images{
+    margin-left: 615px;
+}
+.goa-img:hover {
+    transform: scale(1.1);
+}
+
+.back-btn{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 620px;
+    margin-top: 100px;
+}
+
+.back-btn:hover{
+transform: scale(1.1);
+}
+
+.back-btn:focus{
+background: white;
+color: cornflowerblue;
+}
